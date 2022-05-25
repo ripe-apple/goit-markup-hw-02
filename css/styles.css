@@ -25,7 +25,6 @@
 body {
     background-color:var(--main-bg-color);
     color: var(--main-text-color);
-
     font-family: 'Roboto',sans-serif;
     letter-spacing:0.03em;
 }
@@ -102,6 +101,7 @@ color:var(--main-text-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    cursor:pointer;
 }
 
 .section-title {
@@ -160,6 +160,7 @@ footer {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor:pointer;
 }
 
 .button.primary {
@@ -188,4 +189,7 @@ footer {
     line-height: 1.88;
 }
 
+.footer-text:hover, .footer-text:focus {
+color:var(--accent-color);
+}
 
