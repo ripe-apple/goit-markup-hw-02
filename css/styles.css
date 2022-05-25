@@ -81,14 +81,9 @@ color:var(--main-text-color);
     color:var(--accent-color);
 }
 
-.contacts-nav .link:hover,  {
+.contacts-nav .link:hover, .contacts-nav .link:focus{
     color:var(--accent-color);
 }
-
-.contacts-nav .link:focus {
-    color: var(--accent-color);
-}
-
 
 .site-nav .link.current {
     color: var(--accent-color);
