@@ -94,6 +94,7 @@ color:var(--main-text-color);
 }
 
 .hero-button {
+    font-family:inherit;
     background-color:var(--accent-color);
     color:var(--additional-color);
     text-align: center;
@@ -105,14 +106,12 @@ color:var(--main-text-color);
 
 .section-title {
     color: var(--dark-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 .feature-title {
     color:var(--dark-text-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -179,15 +178,14 @@ footer {
 }
 .portfolio-title {
     color:var(--dark-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-font-size: 16px;
-line-height: 1.88;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 
